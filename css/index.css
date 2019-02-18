@@ -183,7 +183,7 @@ nav {
 }
 
 nav a {
-    margin: 20px 20px;
+    margin: 67px 0px;
     text-decoration: none;
     color: gray;
     /* border: 2px solid red; */
@@ -203,27 +203,34 @@ header {
 
 .header-left {
     text-align: center;
+    margin: 0 0 0 150px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     /* border: 2px solid red; */
 }
 
 header h1 {
     width: 100%;
-    font-size: 65px;
+    font-size: 72px;
     text-align: center;
-    padding: 0 70px 0 70px;
+    padding: 0 0 0 35px;
     /* border: 2px solid red; */
 }
 
 button {
-    width: 135px;
-    height: 30px;
-    font-size: 15px;
+    width: 175px;
+    height: 35px;
+    font-size: 17px;
+    margin: 10px 0 0 23px;
     background: white;
     border: 1px solid black;
 }
 
 header img {
-    padding: 70px;
+    padding: 63px 63px 63px 79px;
     /* border: 2px solid red; */
 }
 
